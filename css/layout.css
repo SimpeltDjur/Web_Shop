@@ -1,0 +1,44 @@
+
+/* Positions */
+.rel { position: relative;}
+.abs { position: absolute;}
+
+
+.sq3 { width: 3rem; height: 3rem;}
+.hf {width: 100%;}
+
+
+/* Background Colors */
+.bgcd {background-color: var(--color-dark) ;}
+.bgcl {background-color: var(--color-light);}
+.bgcs {background-color: var(--color-search);}
+
+
+/* Text Colors */
+.cl {color: var(--color-light);}
+.cd {color: var(--color-dark);}
+
+/* Padding */
+.p4 {padding: 1rem;}
+.pl4, .px4 {padding-left: 1rem;}
+.pr4, .px4 {padding-right: 1rem;}
+.pt4, .py4 {padding-top: 1rem;}
+.pb4, .py4 {padding-bottom: 1rem;}
+.pl8, .px8 {padding-left: 2rem;}
+.pr8, .px8 {padding-right: 2rem;}
+
+
+
+/* Borders */
+.b1 { border: 0.1rem solid var(--color-light); }
+.b2 { border: 0.1rem solid var(--color-border); }
+
+/* Font Sizes*/
+.fs25 {font-size: 2.5rem;}
+.fs40 {font-size: 4rem;}
+
+.lh26 {line-height: 2.6rem;}
+
+
+/* Hide */
+.hide {display: none;}
