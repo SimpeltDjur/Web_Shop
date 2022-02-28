@@ -11,3 +11,5 @@
 .jcc {justify-content: center;}
 
 .grow{ flex-grow: 1;}
+
+.fw {flex-wrap: wrap;}
