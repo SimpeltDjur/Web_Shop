@@ -7,7 +7,7 @@
   
   <title>Webb Shop</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/ca09017d41.js" crossorigin="anonymous"></script>
 
   <link href="css/base.css" rel="stylesheet">
@@ -19,21 +19,21 @@
 
 </head>
 <body class="bgcl">
-  <header class="f jcsb bgcd cl fs25 px8 aic">
+  <header class="f jcsb bgcd cl fs25 px8 aic test">
     
     <div class="b1 rel">
       <i class="fa fa-user px4"></i>
-      <span>Kalle Anka</span>
+      <span class="g5sh">Kalle Anka</span>
       <i class="fa fa-caret-down px4"></i>
       <div class="f fc abs bgcl hf aic cd hide"> <!-- Hidden and waiting for javascript -->
-        <p class="grow b2 hf pl4">Kalle Anka</p>
+        <p class="grow b2 hf pl4 ">Kalle Anka</p>
         <p class="grow b2 hf pl4">Farbror Joakim</p>
         <p class="grow b2 hf pl4">Hans Scheike</p>
       </div>
     </div>
     
-    <div>
-      <a href=# class="cl">
+    <div class="g5h">
+      <a href=# class="cl ish">
         <i class="fa fa-phone"></i>
         <span class=>555 555-5555</span>
       </a>
@@ -52,49 +52,76 @@
 
   </header>
 
-  <section class="f aic py4 bb2">
-    <p class="px4 py4">MY STORE</p>
-    <a href="">
-      <div class="f aic jcc b2 sq3 bgcs">
-        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"> <!-- Jag vet inte helt hur svg funkar men förstoringsglaset på fontawsome funkade inte så jag improviserade en annan lösning -->
-          <path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/>
-        </svg>
-      </div>
-    </a>
-    <input type="text" class="grow lh26" placeholder="   Search products">
+  <section class="f aic py4 bb2 g5c ">
+    <div class="f g5sc hf aic py4 ">
+      <p class="px4 py4">MY STORE</p>
+    <div class="f grow g5h ">
+      <a href="">
+        <div class="f aic jcc b2 sq3 bgcs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"> <!-- Jag vet inte helt hur svg funkar men förstoringsglaset på fontawsome funkade inte så jag improviserade en annan lösning -->
+            <path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/>
+          </svg>
+        </div>
+      </a>
+      <input type="text" class="grow lh26" placeholder="   Search products">
+    </div>
+    <div class="f">
+      <a href="" class="hide g5df">
+        <div class="f fc aic px4 cd bl1">
+          <i class="fa fa-bars fs25 rel">
+          </i>
+          MENU
+          
+        </div>
+      </a>
+      <a href="">
+        <div class="f fc aic px4 cd bl1">
+          <i class="fa fa-heart fs25 rel">
+            <div class="f aic jcc abs bgci br100 isp cl b1 fs16">3</div>
+          </i>
+          FAVS
+          
+        </div>
+      </a>
     
-    <a href="">
-      <div class="f fc aic px4 cd bl1">
-        <i class="fa fa-heart fs25 rel">
-          <div class="f aic jcc abs bgci br100 isp cl b1 fs16">3</div>
-        </i>
-        FAVS
-        
-      </div>
-    </a>
+      <a href="">
+        <div class="f fc aic px4 cd bl1">
+          <i class="fa fa-cart-plus fs25 rel">
+            <div class="f aic jcc abs bgci br100 isp cl b1 fs16">2</div>
+          </i>
+          $1453.5
+        </div>
+      </a>
   
-    <a href="">
-      <div class="f fc aic px4 cd bl1">
-        <i class="fa fa-cart-plus fs25 rel">
-          <div class="f aic jcc abs bgci br100 isp cl b1 fs16">2</div>
-        </i>
-        $1453.5
-      </div>
-    </a>
+      <a href="">
+        <div class="f fc aic cd px4">
+          <i class="fa fa-file-invoice-dollar fs25 rel">
+            <div class="f aic jcc abs bgci br100 isp cl b1 fs16">0</div>
+          </i>
+          $0.00
+        </div>
+      </a>
 
-    <a href="">
-      <div class="f fc aic cd px4">
-        <i class="fa fa-file-invoice-dollar fs25 rel">
-          <div class="f aic jcc abs bgci br100 isp cl b1 fs16">0</div>
-        </i>
-        $0.00
-      </div>
-    </a>
+    </div>
+
+    </div>
+    
+    <div class="f hf grow hide g5df p8">
+      <a href="">
+        <div class="f aic jcc b2 sq3 bgcs">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"> <!-- Jag vet inte helt hur svg funkar men förstoringsglaset på fontawsome funkade inte så jag improviserade en annan lösning -->
+            <path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/>
+          </svg>
+        </div>
+      </a>
+      <input type="text" class="grow lh26" placeholder="   Search products">
+    </div>
+    
     
   </section>
 
-  <section class="f p4">
-    <div class="b2 mx4 lh50">
+  <section class="f p4 g5c isfc">
+    <div class="b2 mx4 lh50 minw">
       <ul>
         <li class="bb2 px4"><i class="fa fa-desktop cci"></i><span class="px4">Computers & Accesssories</span></li>
         <li class="bb2 px4"><i class="fa fa-tv cci"></i><span class="px4">TV, Video & Audio</span></li>
@@ -110,18 +137,91 @@
       </ul>
     </div>
     <div class="f fw grow">
-      <div class="f b2 mh40 mw30 bgcsi p4">
+      
+      <div class="f b2 si bgcsi p4 rel pb20 mx4 g5sc">
         <div>
           <img src="webshop images\images\products\08.jpg" class="imgs" alt="">
         </div>
         <div>
-          <h2>Title</h2>
-          <p>category</p>
-          <p>price</p>
+          <p class="fs25">Surface Book 14 in.</p>
+          <p class="csic">Computers & Accesssories</p>
+          <p class="lh50 pl4">$1251.5</p>
           <p> Ipsum dipsum beskrivning rivning och en held del text. Men inte mer än att jag kan knappra in den här och nu.</p>
         </div>
+        <a href=""><i class="fa fa-heart abs heart-pos cd"></i></a>
         
+        <a href=""><i class="fa fa-cart-plus abs cart-pos cd g5cart-pos"></i></a>
+        <p class="abs rev-pos">4.5</p>
+        <a href=""><i class="fa fa-star abs star-pos cd"></i></a>
+      </div>
 
+      <div class="f b2 si bgcsi p4 rel pb20 mx4 g5sc">
+        <div>
+          <img src="webshop images\images\products\08.jpg" class="imgs" alt="">
+        </div>
+        <div>
+          <p class="fs25">Surface Book 14 in.</p>
+          <p class="csic">Computers & Accesssories</p>
+          <p class="lh50 pl4">$1251.5</p>
+          <p> Ipsum dipsum beskrivning rivning och en held del text. Men inte mer än att jag kan knappra in den här och nu.
+            beskrivning rivning och en held del text.</p>
+        </div>
+        <a href=""><i class="fa fa-heart abs heart-pos cd"></i></a>
+        
+        <a href=""><i class="fa fa-cart-plus abs cart-pos cd g5cart-pos"></i></a>
+        <p class="abs rev-pos">3</p>
+        <a href=""><i class="fa fa-star abs star-pos cd"></i></a>
+      </div>
+
+      <div class="f b2 si bgcsi p4 rel pb20 mx4 g5sc">
+        <div>
+          <img src="webshop images\images\products\12.jpg" class="imgs" alt="">
+        </div>
+        <div>
+          <p class="fs25">Mouse</p>
+          <p class="csic">Computers & Accesssories</p>
+          <p class="lh50 pl4">$151</p>
+          <p> Ipsum dipsum beskrivning rivning och bla bla bla en held del text. Men inte mer än att jag kan knappra in den här och nu.</p>
+        </div>
+        <a href=""><i class="fa fa-heart abs heart-pos cd"></i></a>
+        
+        <a href=""><i class="fa fa-cart-plus abs cart-pos cd g5cart-pos"></i></a>
+        <p class="abs rev-pos">4</p>
+        <a href=""><i class="fa fa-star abs star-pos cd"></i></a>
+      </div>
+
+      <div class="f b2 si bgcsi p4 rel pb20 mx4 g5sc">
+        <div>
+          <img src="webshop images\images\products\08.jpg" class="imgs" alt="">
+        </div>
+        <div>
+          <p class="fs25">Asus Laptop</p>
+          <p class="csic">Computers & Accesssories</p>
+          <p class="lh50 pl4">$1151.5</p>
+          <p> Ipsum dipsum beskrivning rivning och en held del text. Men inte mer än att jag kan knappra in den här och nu.</p>
+        </div>
+        <a href=""><i class="fa fa-heart abs heart-pos cd"></i></a>
+        
+        <a href=""><i class="fa fa-cart-plus abs cart-pos cd g5cart-pos"></i></a>
+        <p class="abs rev-pos">3.5</p>
+        <a href=""><i class="fa fa-star abs star-pos cd"></i></a>
+      </div>
+
+      <div class="f b2 si bgcsi p4 rel pb20 mx4 g5sc">
+        <div>
+          <img src="webshop images\images\products\13.jpg" class="imgs" alt="">
+        </div>
+        <div>
+          <p class="fs25">iMac 18 in</p>
+          <p class="csic">Computers & Accesssories</p>
+          <p class="lh50 pl4">$2151.5</p>
+          <p> Ipsum dipsum beskrivning rivning och en held del text. Men inte mer än att jag kan knappra in den här och nu.</p>
+        </div>
+        <a href=""><i class="fa fa-heart abs heart-pos cd"></i></a>
+        
+        <a href=""><i class="fa fa-cart-plus abs cart-pos cd g5cart-pos"></i></a>
+        <p class="abs rev-pos">3</p>
+        <a href=""><i class="fa fa-star abs star-pos cd"></i></a>
       </div>
 
     </div>

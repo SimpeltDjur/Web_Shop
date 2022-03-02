@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+/* Galaxy 5 */
+@media only screen and (max-width: 40em) {
+  .g5h { display: none;}
+  .g5df {display: flex;}
+  .g5c {flex-direction: column;}
+  .g5r {flex-direction: row;}
+  .g5cart-pos {
+    font-size: 2rem;
+    bottom:1rem;
+    left: 2rem;
+  }
+}
+@media only screen and (max-width: 22.5em) {
+  .g5sc {
+    flex-direction: column;
+    align-items: center;
+  }
+  .g5sh {display: none;}
+}
+@media only screen and (max-width: 51em) {
+  .ish {display: none;}
+  .isfc {flex-direction: column;}
+
+}

@@ -3,12 +3,49 @@
 .rel { position: relative;}
 .abs { position: absolute;}
 
+.isp { 
+  width: 2rem; 
+  height: 2rem;
+  top:-0.5rem;
+  right: -1.3rem;
+}
 
+.heart-pos {
+  font-size: 2rem;
+  top:1.6rem;
+  right: 1.6rem;
+}
+.cart-pos {
+  font-size: 2rem;
+  bottom:1rem;
+  left: 14rem;
+}
+.star-pos {
+  font-size: 2rem;
+  bottom:1rem;
+  right: 1.6rem;
+}
+.rev-pos {
+  font-size: 2rem;
+  bottom:0.4rem;
+  right: 4.2rem;
+}
+
+
+/* Sizes */
 .sq3 { width: 3rem; height: 3rem;}
 .hf {width: 100%;}
 
 .mh40 {max-height: 40%;}
 .mw30 {max-width: 50rem}
+.minw {min-width: 26rem;}
+
+.si {
+  max-width: 50rem;
+  height: fit-content;
+}
+
+.imgs { height: 13rem;}
 
 
 /* Background Colors */
@@ -16,19 +53,24 @@
 .bgcl {background-color: var(--color-light);}
 .bgcs {background-color: var(--color-search);}
 .bgci {background-color: var(--color-info);}
-.bgcr {background-color: red;}
-.bgcg {background-color: green;}
+
 .bgcsi {background-color: white;}
 
+/* Spec */
+.bgcr {background-color: red;}
+.bgcg {background-color: green;}
 
-/* Text Colors */
+
+/* Font Colors */
 .cl {color: var(--color-light);}
 .cd {color: var(--color-dark);}
 .cci {color: var(--color-category-ikon);}
+.csic {color: var(--color-sale-item-category);}
 
 /* Padding */
 .p2 {padding: 0.5rem;}
 .p4 {padding: 1rem;}
+.p8 {padding: 2rem;}
 .pl4, .px4 {padding-left: 1rem;}
 .pr4, .px4 {padding-right: 1rem;}
 .pt4, .py4 {padding-top: 1rem;}
@@ -36,9 +78,14 @@
 .pl8, .px8 {padding-left: 2rem;}
 .pr8, .px8 {padding-right: 2rem;}
 
+.pb20 {padding-bottom: 5rem;}
+
+
 /* marginals */
 .mx4 {margin-left: 1rem;}
 .mx4 {margin-right: 1rem;}
+.mx8 {margin-left: 2rem;}
+.mx8 {margin-right: 2rem;}
 
 
 
@@ -47,6 +94,7 @@
 .b2 { border: 0.1rem solid var(--color-border); }
 .br100 {border-radius: 100%;}
 .bb2 {border-bottom: 0.1rem solid var(--color-border) ;}
+.bl1 {border-right: 0.1rem solid var(--color-border);}
 
 /* Font Sizes*/
 .fs16 {font-size: 1.6rem;}
@@ -60,19 +108,13 @@
 /* Hide */
 .hide {display: none;}
 
-.bl1 {
-  border-right: 0.1rem solid var(--color-border);
-}
 
-.isp { 
-  width: 2rem; 
-  height: 2rem;
 
-  top:-0.5rem;
-  right: -1.3rem;
-}
 
+
+/* Misc */
 
 li {list-style-type: none;}
 
-.imgs { height: 13rem;}
+
+

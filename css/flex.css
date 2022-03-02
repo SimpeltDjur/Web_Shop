@@ -2,6 +2,7 @@
   display: flex;
 }
 .fc {flex-direction: column;}
+.fr {flex-direction: row;}
 .aic {
   align-items: center;
 }
